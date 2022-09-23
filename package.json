@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "To run: node app.js https://meet.google.com/random-string-here",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilal-Abbas-Gigalabs/bilal-google-meet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bilal-Abbas-Gigalabs/bilal-google-meet/issues"
+  },
+  "homepage": "https://github.com/Bilal-Abbas-Gigalabs/bilal-google-meet#readme",
+  "dependencies": {
+    "open": "^8.4.0"
+  }
+}

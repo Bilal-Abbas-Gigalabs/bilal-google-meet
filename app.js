@@ -1,12 +1,9 @@
-const http = require("http");
 var link = process.argv.slice(2);
 
-const server = http.createServer((req, res) => {
-  res
-    .writeHead(301, {
-      Location: `${link}`,
-    })
-    .end();
-});
+const open = require('open');
 
-server.listen(5000);
+open(`${link}`, {
+	app: {
+		name: open.apps.chrome || open.apps.firefox
+	}
+});
