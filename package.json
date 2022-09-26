@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Bilal-Abbas-Gigalabs/bilal-google-meet#readme",
   "dependencies": {
-    "open": "^8.4.0"
+    "open": "^8.4.0",
+    "puppeteer": "^18.0.5",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "puppeteer-screen-recorder": "^2.1.1"
   }
 }
