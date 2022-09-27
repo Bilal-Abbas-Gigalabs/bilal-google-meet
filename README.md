@@ -1,5 +1,6 @@
 # bilal-google-meet
 
 Steps:
-    * npm install
-    * node app.js https://meet.google.com/random-string-here
+
+1. npm install
+2. node app.js https://meet.google.com/random-string-here
