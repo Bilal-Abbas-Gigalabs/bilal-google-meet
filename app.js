@@ -37,7 +37,12 @@ const username = "Flair Assistant";
         process.exit(1);
       })
       .catch((e) => {
-        console.log("Processing...");
+        if(browser.isConnected())
+          console.log("Processing...");
+        else{
+          console.log("Browser Closed");
+          process.exit(1);
+        }
       });
   }, 1000);
 })();
